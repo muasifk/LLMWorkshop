@@ -1,0 +1,7 @@
+| Task Description | Time Requirement | Cognitive Complexity | AI Involvement | AI Help Description | Starter Prompt |
+|---|---|---|---|---|---|
+| Wash my car | Medium | Low | false | N/A | N/A |
+| Buy groceries | Medium | Low | true | AI can help in creating a grocery list based on planned meals, dietary restrictions, and budget. | "Create a grocery list for the following meals: [List Meals]. I have these dietary restrictions: [List Restrictions]. My budget is [Budget]." |
+| Attend parent-teacher meeting at the school | Medium | Low | false | N/A | N/A |
+| Prepare a presentation for the team meeting next week | Long | High | true | AI can assist with brainstorming ideas, structuring the presentation, generating content outlines, and refining the language and tone. | "Help me outline a presentation on [Topic] for a team meeting. The key objectives are [List Objectives]. The audience is [Describe Audience]." |
+| Submitting an urgent report before night | Long | Medium | true | AI can assist with summarizing information, editing for clarity, proofreading for errors, and generating introductory or concluding paragraphs. | "Help me summarize the following information for a report: [Paste Report Information]. Please also proofread for errors and suggest an introductory paragraph." |
