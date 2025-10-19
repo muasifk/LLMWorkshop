@@ -26,78 +26,41 @@ from google.genai import types
 import fitz  # PyMuPDF
 from sentence_transformers import SentenceTransformer
 import faiss
-load_dotenv('keys.env')  # Load environment variables from .env file
-api_key = os.getenv('GOOGLE_API_KEY')
-
+from pathlib import Path
+load_dotenv(Path(__file__).resolve().parent.parent.parent / 'KEYS' / 'keys.env')
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
+# from call_gemini import call_gemini
+from rag_pipeline2 import load_documents
+from rag_pipeline2 import chunk_text, smart_chunk
+from rag_pipeline2 import embed_chunks, build_index, retrieve_chunks
 
 
 DATA_DIR = "data"
-EMBED_MODEL = SentenceTransformer('all-MiniLM-L6-v2')
-client = genai.Client(api_key=api_key)
+EMBED_MODEL = SentenceTransformer('all-MiniLM-L6-v2') # 512 tokens
+# EMBED_MODEL = SentenceTransformer('all-mpnet-base-v2')  # 514 tokens
+# EMBED_MODEL = SentenceTransformer('sentence-transformers/all-MiniLM-L12-v2') # Longer context
+# EMBED_MODEL = SentenceTransformer('BAAI/bge-large-en-v1.5') # SOTA
+# EMBED_MODEL = SentenceTransformer('BAAI/bge-base-en-v1.5') # SOTA
+# EMBED_MODEL = SentenceTransformer('allenai/scibert_scivocab_uncased') # technical/scientific
+# EMBED_MODEL = SentenceTransformer('nlpaueb/legal-bert-base-uncased') # Legal
+# EMBED_MODEL = SentenceTransformer('ProsusAI/finbert') # Financial
 
 
 
 
-def extract_text_from_pdf(pdf_path):
-    doc = fitz.open(pdf_path)
-    # print(f"Reading {len(doc)} pages from {pdf_path}")
-    text = ""
-    for page in doc:
-        text += page.get_text()
-    return text
-
-def load_documents(data_dir):
-    return "\n".join(
-        extract_text_from_pdf(os.path.join(data_dir, f))
-        for f in os.listdir(data_dir)
-        if f.endswith(".pdf"))
-
-
-def chunk_text(text, chunk_size=500, overlap=50):
-    chunks = []
-    for i in range(0, len(text), chunk_size - overlap):
-        chunks.append(text[i:i+chunk_size])
-    # print('\n A sample chunk \n', chunks[0],'\n')
-    return chunks
-
-
-def embed_chunks(chunks):
-    embeddings = EMBED_MODEL.encode(chunks)
-    # print('Show embeddings \n', embeddings[0], '\n')
-    return np.array(embeddings)
-
-
-def build_index(embeddings):
-    dim = embeddings.shape[1]
-    index = faiss.IndexFlatL2(dim)
-    index.add(embeddings)
-    # print('Show Index \n', index, '\n')
-    return index
-
-def retrieve_chunks(query, chunks, index, embedding_model, top_k=3):
-    '''
-    Retrieve Relevant Chunks for a Query
-    '''
-    query_vec = embedding_model.encode([query])
-    distances, indices = index.search(np.array(query_vec), top_k)
-    return [chunks[i] for i in indices[0]]
-
-
-def generate_response(query, retrieved_chunks):
-    context = "\n\n".join(retrieved_chunks)
-    prompt = f"""You are an assistant that answers questions based on the user's documents.
-    Context:{context}
-    Question: {query}
-    Answer:"""
-    response = client.models.generate_content(
+client = genai.Client(api_key=GEMINI_API_KEY)
+def call_gemini(prompt, max_tokens=500, temperature=0.6):
+    """Wrapper for Gemini API calls with error handling"""
+    try:
+        response = client.models.generate_content(
             model='gemini-2.0-flash',
             contents=prompt,
             config=types.GenerateContentConfig(
-            # system_instruction='you are a story teller for kids under 5 years old',
+            system_instruction="You are a helpful assistant. Use the following context to answer the user's question.",
             max_output_tokens= 300,
             # top_k= 2,
             # top_p= 0.5,
-            temperature= 0.5,
+            temperature= 0.5, # 0: Deterministic response
             #   response_mime_type= 'application/json',
             stop_sequences= ['\n'],
             seed=42,
@@ -105,7 +68,27 @@ def generate_response(query, retrieved_chunks):
                     category='HARM_CATEGORY_HATE_SPEECH',
                     threshold='BLOCK_ONLY_HIGH'),]
             ),)
-    return response.text
+        return response.text.strip()
+    except Exception as e:
+        print(f"Gemini API error: {str(e)}")
+        return None
+    
+
+
+
+
+
+def generate_response(query, retrieved_chunks, max_tokens=1000, temperature=0.6):
+    context = "\n\n".join(retrieved_chunks)
+
+    prompt = f"""
+    Context:{context}
+    Question: {query}
+    If the answer is not in the context, say "I don't know."
+    Answer:
+    """
+    return call_gemini(prompt, max_tokens, temperature)
+    
 
 
 ### My RAG bot here
@@ -114,10 +97,13 @@ if __name__ == "__main__":
 
     # ---------- Preprocess Once ----------
     raw_text   = load_documents(DATA_DIR)
-    chunks     = chunk_text(raw_text)
-    embeddings = embed_chunks(chunks)
+    chunks = chunk_text(raw_text, chunk_size=800, overlap=400)  # Character-based chunking
+    # chunks     = smart_chunk(raw_text, max_size=500, overlap=50)  # Smart chunking
+    embeddings = embed_chunks(chunks, EMBED_MODEL)
     index      = build_index(embeddings)
     
+
+
     print("RAG chatbot ready. Ask your questions (type 'exit' to quit):")
     while True:
         print()

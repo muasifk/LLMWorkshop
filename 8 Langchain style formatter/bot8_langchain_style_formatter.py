@@ -9,9 +9,11 @@ import requests
 import json
 import pandas as pd
 # from call_gemini_api import call_gemini_api
-load_dotenv('../keys.env')  # Load environment variables from .env file
-api_key = os.getenv('GOOGLE_API_KEY')
+from pathlib import Path
+
+load_dotenv(Path(__file__).resolve().parent.parent.parent / 'KEYS' / 'keys.env')
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 
 model  = 'gemini-2.0-flash-lite'
-client = genai.Client(api_key=api_key)
+client = genai.Client(api_key=GEMINI_API_KEY)
 

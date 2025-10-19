@@ -9,10 +9,13 @@ from google.genai.types import GenerateContentConfig, Tool, FunctionDeclaration,
 import requests
 import json
 import pandas as pd
+from pathlib import Path
+
 # from call_gemini_api import call_gemini_api
-load_dotenv('../keys.env')  # Load environment variables from .env file
-api_key = os.getenv('GOOGLE_API_KEY')
 from get_weather_forecast import get_weather_forecast, get_weather_forecast_func, call_function
+
+load_dotenv(Path(__file__).resolve().parent.parent.parent / 'KEYS' / 'keys.env')
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 
 model  = 'gemini-2.0-flash-lite'
 client = genai.Client(api_key=api_key)

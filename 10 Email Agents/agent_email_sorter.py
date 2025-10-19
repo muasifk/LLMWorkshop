@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 #=========================================================
 # Load Gemini Key
 load_dotenv(Path(__file__).resolve().parent.parent.parent / 'KEYS' / 'keys.env')
-GEMINI_API_KEY = os.getenv('GOOGLE_API_KEY')
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 
 # Load GMAIL API crednetials with the right scopes and authentication for OAuth2
 SCOPES = ['https://www.googleapis.com/auth/gmail.modify', 'https://www.googleapis.com/auth/gmail.readonly'] # modify, send, readonly

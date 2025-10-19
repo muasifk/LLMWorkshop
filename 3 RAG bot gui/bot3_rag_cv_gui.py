@@ -24,12 +24,15 @@ from sentence_transformers import SentenceTransformer
 import faiss
 import gradio as gr
 from dotenv import load_dotenv
+from pathlib import Path
 
 DATA_DIR = "data"
 EMBED_MODEL = SentenceTransformer('all-MiniLM-L6-v2')
-api_key = os.getenv('GOOGLE_API_KEY')
-load_dotenv('../keys.env')  # Load environment variables from .env file
-genai.configure(api_key=api_key)
+# api_key = os.getenv('GOOGLE_API_KEY')
+# load_dotenv('../keys.env')  # Load environment variables from .env file
+load_dotenv(Path(__file__).resolve().parent.parent.parent / 'KEYS' / 'keys.env')
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
+genai.configure(api_key=GEMINI_API_KEY)
 gemini = genai.GenerativeModel('gemini-2.0-flash-lite')
 
 

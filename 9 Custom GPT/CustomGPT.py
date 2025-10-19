@@ -12,7 +12,7 @@ from pathlib import Path
 #=========================================================
 # Load Gemini Key
 load_dotenv(Path(__file__).resolve().parent.parent.parent / 'KEYS' / 'keys.env')
-GEMINI_API_KEY = os.getenv('GOOGLE_API_KEY')
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 #==========================================================
 
 

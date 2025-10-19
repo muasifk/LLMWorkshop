@@ -1,0 +1,296 @@
+{"input": "What is the longest river in South America?", "output": "The Amazon River"}
+{"input": "Which mountain range separates Europe and Asia?", "output": "The Ural Mountains"}
+{"input": "What is the capital city of Canada?", "output": "Ottawa"}
+{"input": "Which sea is the largest enclosed inland body of water in the world?", "output": "The Caspian Sea"}
+{"input": "What is the largest hot desert in the world?", "output": "The Sahara Desert"}
+{"input": "Which country is both an island and a continent?", "output": "Australia"}
+{"input": "What is the deepest oceanic trench in the world?", "output": "The Mariana Trench"}
+{"input": "Which canal connects the Atlantic Ocean and the Pacific Ocean?", "output": "The Panama Canal"}
+{"input": "Which is the largest freshwater lake by surface area in the world?", "output": "Lake Superior"}
+{"input": "What is the name of the imaginary line that divides the Earth into the Northern and Southern Hemispheres?", "output": "The Equator"}
+{"input": "What is the capital city of Canada?", "output": "Ottawa"}
+{"input": "Which continent is the Sahara Desert located on?", "output": "Africa"}
+{"input": "What is the longest river in South America?", "output": "The Amazon River"}
+{"input": "Which ocean is the deepest point on Earth, the Mariana Trench, found in?", "output": "The Pacific Ocean"}
+{"input": "What is the smallest independent state in the world by both area and population?", "output": "Vatican City"}
+{"input": "Mount Everest is part of which major mountain range?", "output": "The Himalayas"}
+{"input": "Which large island nation is located off the southeast coast of Africa?", "output": "Madagascar"}
+{"input": "What is the largest freshwater lake by surface area in North America?", "output": "Lake Superior"}
+{"input": "The Great Barrier Reef is located off the coast of which country?", "output": "Australia"}
+{"input": "Through how many continents does the Equator pass?", "output": "Three"}
+{"input": "What is the chemical symbol for water?", "output": "H2O"}
+{"input": "What is the powerhouse of the cell?", "output": "Mitochondria"}
+{"input": "Which planet is known as the \"Red Planet\"?", "output": "Mars"}
+{"input": "What force pulls objects towards the Earth's center?", "output": "Gravity"}
+{"input": "What gas do plants absorb from the atmosphere for photosynthesis?", "output": "Carbon dioxide"}
+{"input": "What is the largest organ in the human body?", "output": "Skin"}
+{"input": "What is the approximate speed of light in a vacuum?", "output": "299,792,458 meters per second"}
+{"input": "What is the name of our galaxy?", "output": "The Milky Way"}
+{"input": "Which element has the atomic number 1?", "output": "Hydrogen"}
+{"input": "What type of energy is stored in a stretched spring?", "output": "Potential energy"}
+{"input": "What is the chemical symbol for the element gold?", "output": "Au"}
+{"input": "Which planet is known as the \"Red Planet\"?", "output": "Mars"}
+{"input": "What is the approximate speed of light in a vacuum?", "output": "299,792,458 meters per second"}
+{"input": "What is the process by which plants convert light energy into chemical energy?", "output": "Photosynthesis"}
+{"input": "Which gas makes up the majority of Earth's atmosphere?", "output": "Nitrogen"}
+{"input": "What is the SI unit of electric current?", "output": "Ampere"}
+{"input": "Which acid is found in the human stomach?", "output": "Hydrochloric acid"}
+{"input": "What is the name of our galaxy?", "output": "The Milky Way"}
+{"input": "What instrument is used to measure atmospheric pressure?", "output": "Barometer"}
+{"input": "What is the common name for the compound sodium chloride?", "output": "Table salt"}
+{"input": "What does CPU stand for in computing?", "output": "Central Processing Unit"}
+{"input": "Which AI system from IBM is known for beating human champions in Jeopardy?", "output": "Watson"}
+{"input": "What is the most popular open-source operating system kernel?", "output": "Linux"}
+{"input": "Who is credited with inventing the World Wide Web?", "output": "Tim Berners-Lee"}
+{"input": "What protocol is primarily used to send outgoing email?", "output": "SMTP (Simple Mail Transfer Protocol)"}
+{"input": "What type of malware encrypts a user's files and demands payment to restore access?", "output": "Ransomware"}
+{"input": "What revolutionary gene-editing technology is often described as 'molecular scissors'?", "output": "CRISPR"}
+{"input": "Which space telescope, launched in 1990, has provided stunning images of the universe?", "output": "Hubble Space Telescope"}
+{"input": "What technology uses a decentralized ledger to record transactions across many computers?", "output": "Blockchain"}
+{"input": "What is the field of robotics concerned with designing, building, and operating robots that resemble humans?", "output": "Humanoid robotics"}
+{"input": "Who is considered the \"father of the computer\" for his concept of a programmable mechanical computer?", "output": "Charles Babbage"}
+{"input": "What does the acronym CPU stand for in the context of computer hardware?", "output": "Central Processing Unit"}
+{"input": "Which programming language is widely used for web development, data analysis, artificial intelligence, and scientific computing?", "output": "Python"}
+{"input": "What is the name of the worldwide system of interconnected computer networks that uses the Internet protocol suite?", "output": "The Internet"}
+{"input": "What type of artificial intelligence enables a machine to learn from data without explicit programming, improving its performance over time?", "output": "Machine Learning"}
+{"input": "What does 'RAM' stand for in computer memory?", "output": "Random Access Memory"}
+{"input": "Which communication protocol is primarily used for secure communication over a computer network, especially for web browsing?", "output": "HTTPS (Hypertext Transfer Protocol Secure)"}
+{"input": "What is the smallest unit of digital information, represented by either a 0 or a 1?", "output": "A bit"}
+{"input": "What technology connects everyday objects, vehicles, home appliances, and other items embedded with sensors, software, and other technologies, allowing them to connect and exchange data over the internet?", "output": "Internet of Things (IoT)"}
+{"input": "Which company developed the Android operating system for mobile devices?", "output": "Google"}
+{"input": "What is a prime number?", "output": "A natural number greater than 1 that has no positive divisors other than 1 and itself."}
+{"input": "What is the sum of the interior angles of a triangle in Euclidean geometry?", "output": "180 degrees."}
+{"input": "What is the approximate value of the mathematical constant Pi (π) rounded to two decimal places?", "output": "3.14"}
+{"input": "Which ancient civilization is widely credited with developing the concept of zero and the decimal numeral system?", "output": "Ancient India."}
+{"input": "Which two mathematicians are generally credited with independently developing calculus in the 17th century?", "output": "Isaac Newton and Gottfried Wilhelm Leibniz."}
+{"input": "What is the only even prime number?", "output": "2"}
+{"input": "What mathematical symbol is used to represent 'infinity'?", "output": "The lemniscate symbol (∞)."}
+{"input": "What does the Pythagorean theorem state about a right-angled triangle?", "output": "The square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides (a² + b² = c²)."}
+{"input": "In set theory, what is the symbol used to denote the empty set?", "output": "Ø or {}."}
+{"input": "What is a 'fractal' in mathematics?", "output": "A complex geometric shape that has self-similar patterns at different scales."}
+{"input": "What is the value of Pi (π) rounded to two decimal places?", "output": "3.14"}
+{"input": "Which ancient Greek mathematician is known as the 'Father of Geometry' and wrote 'Elements'?", "output": "Euclid"}
+{"input": "What type of number has exactly two distinct positive divisors: 1 and itself?", "output": "Prime number"}
+{"input": "In algebra, what is the value of any non-zero number raised to the power of zero?", "output": "1"}
+{"input": "What mathematical constant is approximately 2.71828 and is the base of the natural logarithm?", "output": "Euler's number (e)"}
+{"input": "Which theorem states that in a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides?", "output": "Pythagorean theorem"}
+{"input": "What is the term for a sequence of numbers where each number after the first two is the sum of the two preceding ones, starting with 0 and 1?", "output": "Fibonacci sequence"}
+{"input": "What is the name of the coordinate system that uses perpendicular axes (x, y) to locate points in a plane?", "output": "Cartesian coordinate system"}
+{"input": "What mathematical operation is the inverse of differentiation?", "output": "Integration"}
+{"input": "What is the symbol used to represent infinity?", "output": "∞ (lemniscate)"}
+{"input": "Who is the author of the play 'Romeo and Juliet'?", "output": "William Shakespeare"}
+{"input": "Which novel by Harper Lee tells the story of Scout Finch and Atticus Finch?", "output": "To Kill a Mockingbird"}
+{"input": "What is the literary term for a long narrative poem, typically about heroic deeds and events significant to a culture or nation?", "output": "Epic poem"}
+{"input": "Who wrote '1984' and 'Animal Farm'?", "output": "George Orwell"}
+{"input": "Which literary movement emphasized emotion, individualism, and the glorification of nature, often seen in works by poets like William Wordsworth and Lord Byron?", "output": "Romanticism"}
+{"input": "In J.R.R. Tolkien's 'The Hobbit' and 'The Lord of the Rings', what is the name of the wizard who guides the protagonists?", "output": "Gandalf"}
+{"input": "Which author won the Nobel Prize in Literature in 1982 for 'One Hundred Years of Solitude'?", "output": "Gabriel García Márquez"}
+{"input": "What is the name of the famous detective created by Arthur Conan Doyle?", "output": "Sherlock Holmes"}
+{"input": "A Haiku is a Japanese poem consisting of how many syllables in a 5, 7, 5 structure?", "output": "Seventeen"}
+{"input": "Which classic dystopian novel features the character Winston Smith and the Party's slogan 'War is Peace, Freedom is Slavery, Ignorance is Strength'?", "output": "Nineteen Eighty-Four (1984)"}
+{"input": "Who wrote the epic poems \"The Iliad\" and \"The Odyssey\"?", "output": "Homer"}
+{"input": "Which Shakespearean play features the character of Prince Hamlet?", "output": "Hamlet"}
+{"input": "What dystopian novel by George Orwell introduced the concept of Big Brother?", "output": "Nineteen Eighty-Four (or 1984)"}
+{"input": "Who is the author of the \"Harry Potter\" book series?", "output": "J.K. Rowling"}
+{"input": "Which Russian author wrote \"War and Peace\" and \"Anna Karenina\"?", "output": "Leo Tolstoy"}
+{"input": "What is the term for a 14-line poem, typically written in iambic pentameter, with a specific rhyme scheme?", "output": "Sonnet"}
+{"input": "Who wrote the American classic \"To Kill a Mockingbird\"?", "output": "Harper Lee"}
+{"input": "In what novel would you find the characters Elizabeth Bennet and Mr. Darcy?", "output": "Pride and Prejudice"}
+{"input": "Which author created the detective Sherlock Holmes?", "output": "Arthur Conan Doyle"}
+{"input": "What literary prize is awarded annually for an outstanding novel written by a woman from the Commonwealth or Republic of Ireland?", "output": "Women's Prize for Fiction (formerly Orange Prize)"}
+{"input": "What is the largest planet in our solar system?", "output": "Jupiter"}
+{"input": "What is the name of the star at the center of our solar system?", "output": "The Sun"}
+{"input": "What is the name of the galaxy that contains our solar system?", "output": "The Milky Way"}
+{"input": "Which of Earth's neighboring planets is known as the \"Red Planet\"?", "output": "Mars"}
+{"input": "Who was the first human to journey into outer space?", "output": "Yuri Gagarin"}
+{"input": "What unit of measurement is used to describe astronomical distances, representing the distance light travels in one year?", "output": "A light-year"}
+{"input": "What are the small, rocky bodies that orbit the Sun, primarily found between Mars and Jupiter?", "output": "Asteroids"}
+{"input": "What cosmic phenomenon is an extremely dense region of spacetime from which nothing, not even light, can escape?", "output": "A black hole"}
+{"input": "What is the name of our solar system's outermost region, a theoretical cloud of icy planetesimals?", "output": "The Oort Cloud"}
+{"input": "Which famous space telescope was launched by NASA in 1990 and has provided iconic images of the universe?", "output": "The Hubble Space Telescope"}
+{"input": "What is the name of our home galaxy?", "output": "The Milky Way."}
+{"input": "Which planet is known as the \"Red Planet\"?", "output": "Mars."}
+{"input": "What celestial body orbits Earth?", "output": "The Moon."}
+{"input": "What is the largest planet in our solar system?", "output": "Jupiter."}
+{"input": "Which gas makes up the majority of the Sun's mass?", "output": "Hydrogen."}
+{"input": "What is the term for a region of spacetime where gravity is so strong that nothing, not even light, can escape?", "output": "A black hole."}
+{"input": "Who was the first human to walk on the Moon?", "output": "Neil Armstrong."}
+{"input": "What is a light-year a measure of?", "output": "Distance."}
+{"input": "Which dwarf planet was formerly considered the ninth planet?", "output": "Pluto."}
+{"input": "What famous space telescope has provided images of distant galaxies and nebulae since 1990?", "output": "The Hubble Space Telescope."}
+{"input": "What is the primary function of chlorophyll in plants?", "output": "To absorb sunlight for photosynthesis."}
+{"input": "Which organelle is responsible for generating most of the cell's supply of adenosine triphosphate (ATP)?", "output": "Mitochondria."}
+{"input": "What are the basic building blocks of proteins?", "output": "Amino acids."}
+{"input": "What is the scientific name for the process by which plants release water vapor into the atmosphere?", "output": "Transpiration."}
+{"input": "Which type of blood cell is responsible for fighting infections?", "output": "White blood cells (Leukocytes)."}
+{"input": "What is the largest organ in the human body?", "output": "The skin."}
+{"input": "What two molecules make up the backbone of a DNA strand?", "output": "Deoxyribose sugar and phosphate groups."}
+{"input": "Which term describes an organism that produces its own food, typically through photosynthesis?", "output": "Autotroph."}
+{"input": "What is the main function of the diaphragm in the human body?", "output": "To aid in breathing (respiration)."}
+{"input": "What is the process by which a single parent produces offspring that are genetically identical to itself?", "output": "Asexual reproduction."}
+{"input": "What is the primary function of mitochondria in a cell?", "output": "To produce energy (ATP) through cellular respiration."}
+{"input": "Which molecule carries genetic instructions for the development and functioning of all known organisms?", "output": "DNA (Deoxyribonucleic acid)."}
+{"input": "What is the process by which plants convert light energy into chemical energy?", "output": "Photosynthesis."}
+{"input": "What is the largest organ in the human body?", "output": "The skin."}
+{"input": "Which gas do humans exhale as a waste product of respiration?", "output": "Carbon dioxide."}
+{"input": "What is the term for a group of organisms of the same species living in the same area?", "output": "Population."}
+{"input": "What part of a plant is responsible for absorbing water and nutrients from the soil?", "output": "Roots."}
+{"input": "Which type of cell lacks a nucleus and other membrane-bound organelles?", "output": "Prokaryotic cell."}
+{"input": "What is the primary function of red blood cells?", "output": "To transport oxygen."}
+{"input": "What is the role of ribosomes in a cell?", "output": "To synthesize proteins."}
+{"input": "Who was the first emperor of the Roman Empire?", "output": "Augustus"}
+{"input": "In what year did Christopher Columbus first arrive in the Americas?", "output": "1492"}
+{"input": "What major conflict began with the assassination of Archduke Franz Ferdinand?", "output": "World War I"}
+{"input": "Which ancient civilization built the pyramids of Giza?", "output": "The Egyptians"}
+{"input": "Who delivered the 'I Have a Dream' speech during the Civil Rights Movement?", "output": "Martin Luther King Jr."}
+{"input": "What was the name of the wall that divided Berlin during the Cold War?", "output": "The Berlin Wall"}
+{"input": "Which famous general led the Mongol Empire to conquer vast territories?", "output": "Genghis Khan"}
+{"input": "The Magna Carta, a foundational document for constitutional law, was signed in which country?", "output": "England"}
+{"input": "Which conflict is often referred to as the 'War to End All Wars'?", "output": "World War I"}
+{"input": "What was the primary purpose of the Silk Road?", "output": "To facilitate trade between East and West"}
+{"input": "Who was the last pharaoh of ancient Egypt?", "output": "Cleopatra VII."}
+{"input": "Which Roman emperor made Christianity the state religion of the Roman Empire?", "output": "Theodosius I."}
+{"input": "What major pandemic swept through Europe in the 14th century?", "output": "The Black Death."}
+{"input": "Who led the first expedition to circumnavigate the Earth?", "output": "Ferdinand Magellan."}
+{"input": "In what year did the United States declare independence from Great Britain?", "output": "1776."}
+{"input": "What prison fortress was stormed on July 14, 1789, marking a key event in the French Revolution?", "output": "The Bastille."}
+{"input": "Which invention by James Watt significantly improved the efficiency of steam engines?", "output": "The separate condenser (for the steam engine)."}
+{"input": "What event is often considered the trigger for the start of World War I?", "output": "The assassination of Archduke Franz Ferdinand."}
+{"input": "What was the name of the U.S. policy aimed at containing Soviet expansion after World War II?", "output": "The Truman Doctrine."}
+{"input": "Who was the first emperor to unify China?", "output": "Qin Shi Huang."}
+{"input": "In programming, what is a variable?", "output": "A named storage location that holds a value, which can be changed during program execution."}
+{"input": "Which programming paradigm organizes software design around data, or objects, rather than functions and logic?", "output": "Object-Oriented Programming (OOP)."}
+{"input": "What is the primary difference between a compiler and an interpreter?", "output": "A compiler translates the entire source code into machine code before execution, while an interpreter translates and executes code line by line."}
+{"input": "Which high-level programming language is known for its readability and is widely used for web development, data science, and AI?", "output": "Python."}
+{"input": "What is an array in programming?", "output": "A data structure that stores a fixed-size sequential collection of elements of the same data type."}
+{"input": "What is the general purpose of a sorting algorithm?", "output": "To arrange elements of a list or array in a specific order, such as numerical or alphabetical."}
+{"input": "Which part of web development focuses on the user interface and user experience, involving technologies like HTML, CSS, and JavaScript?", "output": "Front-end development."}
+{"input": "What is debugging in the context of computer programming?", "output": "The process of finding and fixing errors or 'bugs' in source code."}
+{"input": "What is the name of the widely used distributed version control system for tracking changes in source code during software development?", "output": "Git."}
+{"input": "What is JavaScript primarily used for in web browsers?", "output": "To enable interactive and dynamic content on web pages."}
+{"input": "What is the primary function of a compiler in computer programming?", "output": "To translate source code written in a high-level language into machine code or an intermediate form that a computer can execute."}
+{"input": "Which programming paradigm organizes software design around data, or objects, rather than functions and logic?", "output": "Object-Oriented Programming (OOP)."}
+{"input": "Who is considered the world's first computer programmer for her work on Charles Babbage's Analytical Engine?", "output": "Ada Lovelace."}
+{"input": "What is the common term for finding and fixing errors or 'bugs' in computer code?", "output": "Debugging."}
+{"input": "What are the three core technologies for front-end web development?", "output": "HTML (HyperText Markup Language), CSS (Cascading Style Sheets), and JavaScript."}
+{"input": "What is an algorithm in the context of computer programming?", "output": "A set of well-defined, step-by-step instructions to solve a particular problem or perform a computation."}
+{"input": "Which programming language is often used for data analysis, machine learning, and web development due to its readability and extensive libraries?", "output": "Python."}
+{"input": "What is 'version control' in software development?", "output": "A system that records changes to a file or set of files over time so that you can recall specific versions later."}
+{"input": "What is a 'variable' in programming?", "output": "A named storage location in memory used to hold a value that can change during program execution."}
+{"input": "What is the main difference between an interpreted language and a compiled language?", "output": "Interpreted languages are translated line-by-line at runtime, while compiled languages are translated into an executable form before runtime."}
+{"input": "What is Newton's First Law of Motion also known as?", "output": "The Law of Inertia."}
+{"input": "What is the approximate speed of light in a vacuum?", "output": "300,000 kilometers per second (or 3 x 10^8 meters per second)."}
+{"input": "What is absolute zero temperature in degrees Celsius?", "output": "-273.15 degrees Celsius."}
+{"input": "Through which state of matter does sound travel fastest?", "output": "Solids."}
+{"input": "What famous equation relates mass and energy?", "output": "E=mc²."}
+{"input": "Which color of visible light has the longest wavelength?", "output": "Red."}
+{"input": "What is the SI unit of electric current?", "output": "Ampere."}
+{"input": "What type of energy is stored in an object due to its position or height?", "output": "Gravitational potential energy."}
+{"input": "What fundamental particle mediates the strong nuclear force?", "output": "Gluon."}
+{"input": "What is the primary method of heat transfer through a vacuum?", "output": "Radiation."}
+{"input": "What is the approximate speed of light in a vacuum?", "output": "Approximately 299,792,458 meters per second (or about 300,000 kilometers per second)."}
+{"input": "Which of Newton's laws of motion states that for every action, there is an equal and opposite reaction?", "output": "Newton's Third Law of Motion."}
+{"input": "What is the SI unit for electric current?", "output": "Ampere (A)."}
+{"input": "What phenomenon causes a prism to split white light into its constituent colors?", "output": "Dispersion."}
+{"input": "What type of energy is stored in an object due to its position or state, such as a stretched spring or an object at a height?", "output": "Potential energy."}
+{"input": "What famous equation, developed by Albert Einstein, relates mass and energy?", "output": "E=mc²."}
+{"input": "What are the fundamental particles that make up protons and neutrons?", "output": "Quarks."}
+{"input": "Does sound travel faster in air or in water?", "output": "Sound travels faster in water."}
+{"input": "What concept in physics describes the degree of disorder or randomness in a system?", "output": "Entropy."}
+{"input": "What is the process by which an unstable atomic nucleus loses energy by emitting radiation?", "output": "Radioactive decay."}
+{"input": "What is the most abundant element in the Earth's crust?", "output": "Oxygen."}
+{"input": "What is the chemical symbol for gold?", "output": "Au."}
+{"input": "What pH value indicates a neutral solution?", "output": "pH 7."}
+{"input": "Which element is the basis of organic chemistry?", "output": "Carbon."}
+{"input": "What are the three primary subatomic particles found in an atom?", "output": "Protons, neutrons, and electrons."}
+{"input": "What is the process of a solid turning directly into a gas called?", "output": "Sublimation."}
+{"input": "What is the chemical formula for water?", "output": "H₂O."}
+{"input": "Who is credited with creating the first recognizable periodic table of elements?", "output": "Dmitri Mendeleev."}
+{"input": "What gas do plants absorb from the atmosphere for photosynthesis?", "output": "Carbon dioxide (CO₂)."}
+{"input": "What type of chemical bond involves the sharing of electron pairs between atoms?", "output": "Covalent bond."}
+{"input": "What is the chemical symbol for the element gold?", "output": "Au"}
+{"input": "Which element is the most abundant in Earth's atmosphere?", "output": "Nitrogen"}
+{"input": "What is the pH value of a neutral solution at 25°C?", "output": "7"}
+{"input": "What type of chemical bond involves the sharing of electron pairs between atoms?", "output": "Covalent bond"}
+{"input": "What is the common name for the compound H₂O₂?", "output": "Hydrogen peroxide"}
+{"input": "Who is often credited with publishing the first widely recognized periodic table of elements?", "output": "Dmitri Mendeleev"}
+{"input": "What is the process called when a solid turns directly into a gas without passing through a liquid phase?", "output": "Sublimation"}
+{"input": "Which noble gas is used in bright electric signs to produce a red-orange glow?", "output": "Neon"}
+{"input": "What is the main component of natural gas?", "output": "Methane (CH₄)"}
+{"input": "Which famous scientist developed the atomic theory and is known for his postulates about atoms?", "output": "John Dalton"}
+{"input": "Which country has won the most FIFA World Cups in men's football?", "output": "Brazil"}
+{"input": "How many players are on a standard baseball team's field at one time?", "output": "Nine"}
+{"input": "What is the highest possible score in a single frame of ten-pin bowling?", "output": "30 points"}
+{"input": "Which Grand Slam tennis tournament is played on grass courts?", "output": "Wimbledon"}
+{"input": "What is the name of the annual championship game of the National Football League (NFL)?", "output": "The Super Bowl"}
+{"input": "In basketball, how many points is a successful free throw worth?", "output": "One point"}
+{"input": "Which famous Jamaican sprinter holds the world record for the men's 100-meter dash?", "output": "Usain Bolt"}
+{"input": "What is the term for scoring one stroke under par on a hole in golf?", "output": "A birdie"}
+{"input": "How many periods are in a regulation ice hockey game?", "output": "Three"}
+{"input": "Which martial art originated in Korea and emphasizes kicks and punches?", "output": "Taekwondo"}
+{"input": "Which city hosted the first modern Olympic Games in 1896?", "output": "Athens"}
+{"input": "How many players are on a standard football (soccer) team on the field at one time?", "output": "11"}
+{"input": "What is the highest governing body of international basketball?", "output": "FIBA"}
+{"input": "Which Grand Slam tennis tournament is played on clay courts?", "output": "French Open (Roland Garros)"}
+{"input": "In baseball, what is the term for a hit that allows the batter to round all bases and score a run?", "output": "Home run"}
+{"input": "Which driver holds the record for the most Formula 1 Grand Prix wins?", "output": "Lewis Hamilton"}
+{"input": "What is the standard distance of a marathon race in kilometers?", "output": "42.195 kilometers"}
+{"input": "How many rounds are typically in a professional championship boxing match?", "output": "12 rounds"}
+{"input": "Which sport involves players using brooms to sweep ice in front of a sliding stone?", "output": "Curling"}
+{"input": "What are the four major championships in professional golf collectively known as?", "output": "The Majors"}
+{"input": "What is the traditional Japanese art of paper folding called?", "output": "Origami"}
+{"input": "What is the most widely spoken native language in the world?", "output": "Mandarin Chinese"}
+{"input": "The Five Pillars are fundamental practices in which major world religion?", "output": "Islam"}
+{"input": "What is the name of the traditional Japanese theatrical art form known for its elaborate costumes and stylized movements?", "output": "Kabuki"}
+{"input": "Which architectural style is characterized by pointed arches, ribbed vaults, and flying buttresses?", "output": "Gothic architecture"}
+{"input": "What is sushi traditionally made from?", "output": "Vinegared rice, seafood, and vegetables"}
+{"input": "Which ancient civilization is famous for its hieroglyphic writing system?", "output": "Ancient Egypt"}
+{"input": "What is the traditional Japanese art of paper folding called?", "output": "Origami"}
+{"input": "Which country is the birthplace of the tango dance?", "output": "Argentina"}
+{"input": "What is the name of the traditional Scottish skirt-like garment worn by men?", "output": "Kilt"}
+{"input": "In Hinduism, what is the festival of lights called?", "output": "Diwali"}
+{"input": "Which European city is home to the Louvre Museum, famous for housing the Mona Lisa?", "output": "Paris, France"}
+{"input": "What musical instrument is a symbol of traditional Irish folk music?", "output": "Harp (or Uilleann pipes, Bodhrán - Harp is very iconic)"}
+{"input": "Which author wrote the epic poem 'The Odyssey'?", "output": "Homer"}
+{"input": "What is the traditional Mexican holiday celebrated on November 1st and 2nd to honor deceased loved ones?", "output": "Día de los Muertos (Day of the Dead)"}
+{"input": "What is the name of the distinctive curved sword traditionally associated with Japanese samurai?", "output": "Katana"}
+{"input": "What type of reasoning moves from general principles to specific conclusions?", "output": "Deductive reasoning."}
+{"input": "For a deductive argument to be sound, what two conditions must it meet?", "output": "It must be valid and all its premises must be true."}
+{"input": "Which branch of formal logic deals with propositions and how they combine using connectives like 'and' or 'or'?", "output": "Propositional logic (or Sentential logic)."}
+{"input": "What is a common informal fallacy where someone attacks the person making an argument instead of the argument itself?", "output": "Ad hominem fallacy."}
+{"input": "Which mathematician developed a system of algebraic logic using binary variables and operators like AND, OR, and NOT?", "output": "George Boole."}
+{"input": "In predicate logic, what symbol represents 'for all' or 'for every'?", "output": "The universal quantifier (∀)."}
+{"input": "What is a statement in logic that is always true, regardless of the truth values of its component propositions?", "output": "A tautology."}
+{"input": "What is the name of the valid deductive inference rule that states: 'If P then Q. P is true. Therefore, Q is true'?", "output": "Modus Ponens."}
+{"input": "What is another common name for First-Order Logic?", "output": "Predicate Logic."}
+{"input": "What is the primary goal of logic as a field of study?", "output": "To analyze and evaluate arguments for their correctness and validity."}
+{"input": "What academic discipline studies reasoning and arguments?", "output": "Logic."}
+{"input": "Which type of reasoning guarantees the truth of its conclusion if its premises are true?", "output": "Deductive reasoning."}
+{"input": "What kind of reasoning uses specific observations to arrive at a general conclusion, which is probable but not guaranteed?", "output": "Inductive reasoning."}
+{"input": "In logic, what are the statements given in support of a conclusion called?", "output": "Premises."}
+{"input": "What term describes an argument where the conclusion logically follows from its premises, regardless of whether the premises are actually true?", "output": "Valid."}
+{"input": "What term describes a deductive argument that is both valid and has all true premises?", "output": "Sound."}
+{"input": "What is an error in reasoning or a flaw in an argument that makes it invalid or unsound called?", "output": "A logical fallacy."}
+{"input": "Which ancient Greek philosopher is widely considered the father of logic for his work on syllogisms?", "output": "Aristotle."}
+{"input": "In propositional logic, what symbol typically represents the logical connective 'AND'?", "output": "∧ (or ^)."}
+{"input": "What is the basic unit of study in propositional logic?", "output": "A proposition (or a statement)."}
+{"input": "What common household item can be used to absorb odors in a refrigerator?", "output": "Baking soda."}
+{"input": "What is the recommended maximum number of hours most adults should sleep per night?", "output": "7-9 hours."}
+{"input": "In basic first aid, what does R.I.C.E. stand for when treating minor sprains or strains?", "output": "Rest, Ice, Compression, Elevation."}
+{"input": "What is the primary function of a circuit breaker in a home's electrical system?", "output": "To protect against overcurrent and prevent electrical fires."}
+{"input": "Which common kitchen utensil is used to drain water from pasta or washed vegetables?", "output": "A colander."}
+{"input": "What is the recommended safe internal cooking temperature for ground beef?", "output": "160°F (71°C)."}
+{"input": "What does 'URL' stand for in the context of web addresses?", "output": "Uniform Resource Locator."}
+{"input": "How often should you test the batteries in your smoke detectors?", "output": "At least once a month."}
+{"input": "What type of light bulb is known for its long lifespan and energy efficiency, often used as a replacement for incandescent bulbs?", "output": "LED (Light Emitting Diode) bulbs."}
+{"input": "What is the purpose of rotating your car tires regularly?", "output": "To ensure even wear and extend tire life."}
+{"input": "What is the main ingredient in guacamole?", "output": "Avocado"}
+{"input": "Which common household item can be used to deodorize a refrigerator?", "output": "Baking soda"}
+{"input": "What is the largest organ of the human body?", "output": "Skin"}
+{"input": "What does 'URL' stand for in web addresses?", "output": "Uniform Resource Locator"}
+{"input": "What gas do plants absorb from the atmosphere during photosynthesis?", "output": "Carbon dioxide"}
+{"input": "How many seconds are in one minute?", "output": "60"}
+{"input": "What is the emergency telephone number in the United States and Canada?", "output": "911"}
+{"input": "What hand tool is used to tighten or loosen nuts and bolts?", "output": "Wrench"}
+{"input": "What is the process of converting waste materials into new materials called?", "output": "Recycling"}
+{"input": "What is the three-digit security code on the back of most credit cards called?", "output": "CVV (Card Verification Value)"}

@@ -15,7 +15,7 @@ This workshop contains a curated collection of tutorials/projects with complete 
 8. Langchain - LLM for style formatter
 9. Custom GPT using Prompt tuning [[Video](https://youtu.be/eFmpgnAzCH0?si=WPaHsbQAv3_MV787)]
 10. Email Agents (Auto Email sorting, Auto email ressponding) [[Email Sorter Agent Video](https://youtu.be/J3a4x33czx0?si=6ErdWyX87Dmd7cZV)] | [[Email Reply Agent Video](https://youtu.be/xcj-SD-bkVY?si=VB2Jgi1M1Cvd6t00)]
-11. LinkedIn Post Agent (in progress)
+11. More fun stuff to come...
 
 
 

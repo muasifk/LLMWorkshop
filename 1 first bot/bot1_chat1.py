@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 import os
 from google import genai
 from google.genai import types
-load_dotenv('../keys.env')  # Load environment variables from .env file
-api_key = os.getenv('GOOGLE_API_KEY')
+load_dotenv(Path(__file__).resolve().parent.parent.parent / 'KEYS' / 'keys.env')
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 
 
 
@@ -17,7 +17,7 @@ api_key = os.getenv('GOOGLE_API_KEY')
 ##############################################################
 # The chat assistance using "generate_content_stream" method
 ##############################################################
-client = genai.Client(api_key=api_key)
+client = genai.Client(api_key=GEMINI_API_KEY)
 print("Type your prompts (type 'exit' to quit):")
 try:
     while True:

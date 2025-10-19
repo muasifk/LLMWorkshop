@@ -8,10 +8,10 @@ from dotenv import load_dotenv
 import os
 from google import genai
 from google.genai import types
+from pathlib import Path
 
-## 3 Import your Google API Key from a the "keys.env" file (stored locally).
-load_dotenv('../keys.env')  # Load environment variables from .env file
-api_key = os.getenv('GOOGLE_API_KEY')
+load_dotenv(Path(__file__).resolve().parent.parent.parent / 'KEYS' / 'keys.env')
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
   
 ## 4 Initialize a client instance.
 client = genai.Client(api_key=api_key)

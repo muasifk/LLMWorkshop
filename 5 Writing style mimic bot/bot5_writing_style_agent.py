@@ -6,10 +6,10 @@ from langchain.document_loaders import PyPDFLoader
 from sentence_transformers import SentenceTransformer
 import chromadb
 from dotenv import load_dotenv
-
-load_dotenv('../keys.env')  # Load environment variables from .env file
-api_key = os.getenv('GOOGLE_API_KEY')
-client = genai.Client(api_key=api_key)
+from pathlib import Path
+load_dotenv(Path(__file__).resolve().parent.parent.parent / 'KEYS' / 'keys.env')
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
+client = genai.Client(api_key=GEMINI_API_KEY)
 
 
 
